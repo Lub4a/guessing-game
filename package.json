@@ -1,27 +1,39 @@
 {
-    "name": "guessing-game",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "test": "mocha -r ./test/setup-mocha.js",
-        "start": "webpack-dev-server",
-        "postinstall": "node postinstall.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "engines": {
-        "node": "<=14"
-    },
-    "devDependencies": {
-        "chai": "^3.5.0",
-        "mocha": "^3.0.2",
-        "sinon": "^1.17.5",
-        "sinon-chai": "^2.8.0",
-        "webpack": "^1.13.1",
-        "webpack-dev-server": "^1.14.1"
-    },
-    "dependencies": {
-        "colors": "^1.4.0",
-        "semver": "^6.3.0"
-    }
+  "name": "guessing-game",
+  "version": "1.0.0",
+  "description": "---\r ⚠️ DO NOT SUBMIT PRS WITH SOLUTIONS TO THIS REPO ⚠️",
+  "scripts": {
+    "test": "mocha -r ./test/setup-mocha.js",
+    "start": "webpack-dev-server",
+    "postinstall": "node postinstall.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "<=14"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "semver": "^6.3.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lub4a/guessing-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lub4a/guessing-game/issues"
+  },
+  "homepage": "https://github.com/Lub4a/guessing-game#readme"
 }
